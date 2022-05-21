@@ -1,0 +1,6 @@
+[submodule "Dependencies/fzy"]
+	path = Dependencies/fzy
+	url = https://github.com/jhawthorn/fzy
+[submodule "Dependencies/wildmatch"]
+	path = Dependencies/wildmatch
+	url = https://github.com/davvid/wildmatch
