@@ -6,7 +6,7 @@
 import Foundation
 import WildmatchC
 
-public struct Flag: OptionSet {
+public struct Flag: OptionSet, Sendable {
   public let rawValue: Int32
 
   public init(rawValue: Int32) { self.rawValue = rawValue }

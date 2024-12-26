@@ -1,4 +1,4 @@
-// swift-tools-version: 5.6
+// swift-tools-version: 6.0
 
 import PackageDescription
 
@@ -10,7 +10,7 @@ let package = Package(
     .library(name: "FzyC", targets: ["FzyC"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/Quick/Nimble", .upToNextMajor(from: "13.0.0")),
+    .package(url: "https://github.com/Quick/Nimble", .upToNextMajor(from: "13.7.1")),
   ],
   targets: [
     .target(name: "Misc", dependencies: ["WildmatchC", "FzyC"]),
