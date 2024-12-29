@@ -41,7 +41,7 @@ public func wildmatch(pattern: String, string: String, flags: Flag = .wildstar) 
   }
 }
 
-public final class Wildmatcher {
+public final class Wildmatcher: Sendable {
   public let pattern: String
 
   public init(pattern: String) {

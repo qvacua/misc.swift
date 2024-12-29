@@ -28,7 +28,7 @@ public func matchScoreAndPositions(
   }
 }
 
-public final class FzyMatcher {
+public final class FzyMatcher: Sendable {
   public let needle: String
 
   public init(needle: String) {
@@ -52,5 +52,5 @@ public final class FzyMatcher {
     }
   }
 
-  private var needleCstr: [CChar]
+  private let needleCstr: [CChar]
 }
